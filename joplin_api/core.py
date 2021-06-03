@@ -1,6 +1,8 @@
+
 # coding: utf-8
 """
     Joplin Editor API - https://joplinapp.org/api/
+    Cloned from https://gitlab.com/annyong/joplin-api which is no longer maintained an lacks pagination.
 """
 from copy import copy
 import json
@@ -12,9 +14,6 @@ import urllib.parse
 
 # external lib to use async accesses to the joplin webclipper
 import httpx
-
-__author__ = 'FoxMaSk'
-__all__ = ['JoplinApi']
 
 from httpx import Response
 
